@@ -1,0 +1,29 @@
+
+.container {
+    text-align: left;
+    margin-top: 24pt;
+}
+
+.heading {
+    margin-bottom: 14pt;
+    line-height: 20pt;
+    font-size: 18pt;
+    text-align: center;
+}
+@media (min-height: 768px) {
+.heading {
+    margin-bottom: 18pt;
+    font-size: 24pt;
+}
+}
+@media (min-height: 992px) {
+.heading {
+    margin-bottom: 24pt;
+    font-size: 32pt;
+}
+}
+
+.paragraph {
+    font-size: 12pt;
+    line-height: 14pt;
+}

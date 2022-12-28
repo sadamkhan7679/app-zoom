@@ -1,0 +1,18 @@
+
+.container {
+    background-color: white;
+    border-radius: 12pt;
+    padding: 14pt;
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+}
+
+.img {
+    height: 38pt;
+    margin-bottom: 8pt;
+}
+
+.heading {
+    margin-bottom: 6pt;
+    font-size: 16pt;
+}

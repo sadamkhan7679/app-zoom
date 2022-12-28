@@ -1,0 +1,9 @@
+
+.quantisedScrollContainer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  transition: top 550ms var(--time-func-a);
+}

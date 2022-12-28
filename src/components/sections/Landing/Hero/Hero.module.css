@@ -1,0 +1,100 @@
+.container {
+  background-color: var(--primary-background-color);
+  height: calc(66 * var(--ivh));
+}
+@media screen and (min-aspect-ratio: 2/1) {
+  .container {
+    background-color: rgba(0,0,0,0);
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    padding-top: 18pt;
+  }
+}
+
+.textContainer,
+.imageContainer {
+  display: flex;
+}
+.textContainer {
+  flex-direction: column;
+  color: white;
+  padding: 22pt 0pt;
+  height: calc(44 * var(--ivh));
+  text-align: center;
+}
+@media (min-width: 767px) and (orientation: landscape) {
+  .textContainer {
+    padding-left: 60pt;
+    text-align: left;
+  }
+}
+.imageContainer {
+  align-items: flex-end;
+  justify-content: center;
+  height: calc(45 * var(--ivh));
+  padding: 0; 
+}
+@media (min-width: 768px) {
+  .imageContainer {
+    height: calc(60 * var(--ivh));
+  }
+}
+@media (min-width: 767px) and (orientation: landscape) {
+  .imageContainer {
+    padding: 35pt 0pt; 
+  }
+}
+
+.heading {
+  margin-bottom: 0.5em;
+  font-size: 16pt;
+}
+@media (min-width: 768px) {
+  .heading { 
+    font-size: 22pt;
+  }
+}
+@media (min-width: 992px) {
+  .heading { 
+    font-size: 28pt;
+  }
+}
+
+.buttonContainer {
+  text-align: center;
+}
+
+.appImage {
+  height: 77%;
+  padding: 0pt 22pt;
+}
+.appImageMiddle {
+  height: 88%;
+}
+@media (max-width: 991px) {
+  .appImage {
+    height: 72.5%;
+    padding: 0;
+  }
+  .appImageMiddle {
+    height: 85%;
+  }
+}
+
+.waveContainer {
+  height: calc(30 * var(--ivh));
+
+  /* position: relative;
+  display: inline-block;
+  width: 100%;
+  z-index: -10; */
+}
+.wave {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 100%;
+}

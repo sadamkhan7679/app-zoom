@@ -1,0 +1,95 @@
+
+.title {
+  font-size: 14pt;
+}
+@media (min-height: 768px) {
+  .title {
+    font-size: 16pt;
+  }
+}
+@media (min-height: 992px) {
+  .title {
+    font-size: 18pt;
+  }
+}
+
+.input {
+  font-size: 14pt !important;
+  line-height: 18pt !important;
+  padding: 3pt;
+  border: 2px solid #989898 !important;
+  border-radius: 4pt !important;
+  width: 100% !important;
+}
+.input:focus {
+  outline: none;
+  box-shadow: 0pt 0pt 3pt 0.5pt rgba(152, 152, 152, 0.8) inset;
+}
+.inputInvalid {
+  border-color: rgb(230, 58, 58) !important;
+}
+.inputInvalid:focus {
+  box-shadow: 0pt 0pt 3pt 0.5pt rgba(230, 58, 58, 0.8) inset;
+}
+.inputValid {
+  border-color: #77cc6d !important;
+}
+.inputValid:focus {
+  box-shadow: 0pt 0pt 3pt 0.5pt rgba(119, 204, 109, 0.8) inset;
+}
+@media (min-height: 768px) {
+  .input {
+    font-size: 18pt;
+    line-height: 24pt;
+  }
+}
+@media (min-height: 992px) {
+  .input {
+    font-size: 24pt;
+    line-height: 32pt;
+  }
+}
+
+
+.hintCol {
+  line-height: 12pt;
+}
+.hint {
+  font-size: 12pt;
+  color: rgb(230, 58, 58);
+  display: none;
+}
+.hintVisible {
+  display: initial
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 14pt;
+}
+
+.button {
+  text-decoration: inherit;
+  outline: inherit;
+  border: none;
+  border-radius: 6pt;
+  background-color: var(--primary-background-color);
+  box-shadow: 0pt 2pt 1pt 0.5pt rgba(83, 148, 76, 0.7);
+  padding: 9pt;
+  font-size: 12pt;
+  font-weight: 600;
+  color: white;
+  transition: 
+    background-color 0.33s ease, 
+    box-shadow 0.33s ease, 
+    opacity 0.33s ease;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: var(--secondary-background-color);
+  box-shadow: 0pt 2pt 2pt 1pt rgba(35, 63, 32, 0.45);
+}
+.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}

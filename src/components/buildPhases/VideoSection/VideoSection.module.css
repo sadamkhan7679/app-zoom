@@ -1,0 +1,15 @@
+
+.container {
+    text-align: center;
+    padding-top: 64pt;
+    padding-bottom: 64pt;
+    border-bottom: 1pt solid black;
+}
+
+.video {
+    max-width: 550pt;
+    width: 100%;
+    border-radius: 8pt;
+    border: 2pt solid #77cc6d;
+    box-shadow: 0 6pt 12pt rgba(0, 0, 0, 0.3);
+}

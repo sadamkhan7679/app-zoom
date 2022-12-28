@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f2f8f0;
+            font-family: Arial, sans-serif, 'Open Sans';
+            font-size: 14pt;
+        }
+        .container {
+            background-color: #fff;
+            width: 100%;
+            max-width: 480pt;
+            margin-top: 32pt;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 32pt;
+        }
+        .intro {
+            margin-bottom: 24pt;
+            font-weight: bold;
+        }
+        .card {
+            text-align: center;
+            padding: 14pt;
+            border: 2px solid #989898;
+            border-radius: 6pt;
+            margin-top: 16pt;
+            margin-bottom: 24pt;
+        }
+        .card__heading {
+            font-size: 16pt;
+            font-weight: 600;
+            margin-bottom: 9pt;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="intro">Hi ${name},</p>
+        <p>
+            You requested a quote for building a new app.
+        </p>
+        <div class="card">
+            <div class="card__heading">
+                Your Quote
+            </div>
+            <div><span>${quote}</span></div>
+        </div>
+        <p>
+            Use the following link to go back and change your options to get a new quote.
+        </p>
+        <div class="card">
+            <a href="https://app.opzoom.com/cost-to-make-an-app/more">
+                https://app.opzoom.com/cost-to-make-an-app/more
+            </a>
+        </div>
+        <p>From OpZoom</p>
+    </div>
+</body>
+</html>

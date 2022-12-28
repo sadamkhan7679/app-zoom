@@ -1,0 +1,31 @@
+
+.container {
+  margin-left: 22pt;
+  background-color: var(--secondary-background-color);
+  display: inline-block;
+  width: 44pt;
+  height: 44pt;
+  position: relative;
+  top: 3pt;
+  border-radius: 50%;
+  padding: 6.6pt;
+  transition: box-shadow 0.33s ease, transform 0.33s ease;
+}
+@media (max-width: 767px) {
+  .container {
+    margin-left: 0;
+  }
+}
+
+.hover {
+  box-shadow: 0 2pt 3pt rgba(0, 0, 0, 0.22);
+  transform: scale(1.10)
+}
+
+.arrow {
+  width: 100%;
+  height: 100%;
+  color: var(--tertiary-font-color);
+  position: relative;
+  top: -2pt;
+}

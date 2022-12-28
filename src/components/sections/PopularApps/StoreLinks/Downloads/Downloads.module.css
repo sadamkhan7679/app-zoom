@@ -1,0 +1,10 @@
+
+.downloads {
+  font-size: 26pt;
+  color: var(--tertiary-font-color)
+}
+@media (max-width: 767px) {
+  .downloads { 
+    font-size: 14pt;
+  }
+}

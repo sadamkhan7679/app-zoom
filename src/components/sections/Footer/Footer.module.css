@@ -1,0 +1,96 @@
+.footer {
+  position: relative;
+  z-index: 10;
+  background-color: var(--secondary-background-color);
+  border-top: 1px solid #707070;
+  height: auto;
+  clip-path: inset(0 0 0 0);
+  z-index: 10;
+  padding-bottom: 36pt;
+}
+@media (max-width: 565px) {
+  .footer {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+}
+
+.bookingContainer {
+  width: 88vw;
+  height: auto;
+  max-width: 660pt;
+  margin: 0 auto;
+  background-color: var(--tertiary-background-color);
+  padding: 12pt;
+  border-radius: 12pt;
+  z-index: -1;
+}
+@media (orientation: portrait) {
+  .bookingContainer {
+    width: 100vw;
+    top: unset;
+    bottom: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+}
+
+
+.text {
+  position: relative;
+  top: -2pt;
+  padding-top: 12pt;
+  padding-bottom: 12pt;
+  background-color: var(--tertiary-background-color);
+  cursor: pointer;
+  margin-bottom: 36pt;
+}
+@media (max-width: 767px) {
+  .text {
+    padding-top: 0pt;
+    padding-bottom: 0;
+  }
+}
+.paragraph {
+  text-align: center;
+  color: var(--tertiary-font-color);
+  font-size: 24pt;
+  padding-right: 1.3em;
+}
+@media (max-width: 767px) {
+  .paragraph {
+    font-size: 18pt;
+    text-align: center;
+    margin: 0;
+    padding-right: 0;
+  }
+}
+
+.button {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 2px solid #989898;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  padding: 7px 15px;
+  margin: 15px 0px;
+}
+
+.calendarCol {
+  display: none;
+}
+@media (orientation: landscape) and (min-width: 992px) {
+  .calendarCol {
+    display: initial;
+  }
+}
+.calendarContainer {
+  position: relative;
+  height: 20vh;
+}
+.calender {
+  width: auto;
+  height: 200pt;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 0pt -6pt 15pt rgba(0, 0, 0, 0.33);
+}

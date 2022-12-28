@@ -1,0 +1,78 @@
+
+
+.container {
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .container {
+        margin-top: 12pt;
+    }
+}
+
+.textCol {
+  text-align: right;
+}
+.barCol {
+  text-align: left;
+}
+
+.heading {
+  color: var(--secondary-font-color);
+  font-size: 13pt;
+  font-weight: 600;
+  position: relative;
+  top: -2pt;
+}
+.heading span{
+  font-size: 20pt;
+}
+
+.bar {
+    position: relative;
+    display: inline-block;
+    width: 88%;
+    max-width: 200pt;
+    overflow: hidden;
+    border-radius: 24pt;
+    height: 26pt;
+    background-color: white;
+    text-align: left;
+    border: 2px solid #989898;
+    box-shadow: 
+        0pt 0pt 6pt rgba(0, 0, 0, 0.3) inset,
+        0pt 1pt 3pt rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 768px) {
+    .bar {
+        line-height: 24pt;
+    }
+}
+
+.progress {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    background-color: var(--primary-background-color);
+    width: 0%;
+    height: 100%;
+    border-radius: 12pt;
+    box-shadow: 
+        2pt 0pt 4pt rgba(255, 255, 255, 0.6) inset,
+        2pt -2pt 3pt rgba(0, 0, 0, 0.3) inset,
+        0pt 0pt 4pt rgba(0, 0, 0, 0.4);
+    transition: width 0.88s var(--time-func-a);
+    color: white;
+    text-align: center;
+    user-select: none;
+    overflow: hidden;
+}
+
+.value {
+    font-size: 16pt;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

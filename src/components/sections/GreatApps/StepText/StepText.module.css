@@ -1,0 +1,40 @@
+
+.stepText {
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 88%;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .stepText {
+    left: 0.5rem;
+    transform: translateY(-50%) translateY(-6pt);
+  }
+}
+
+.heading {
+  padding-left: 0.3rem;
+}
+@media (max-width: 767px) {
+  .heading {
+    position: relative;
+    margin-bottom: 0.2em;
+  }
+}
+@media (max-width: 565px) {
+  .heading {
+    font-size: 12pt;
+  }
+}
+
+@media (max-width: 767px) {
+  .paragraph {
+    font-size: 11pt;
+  }
+}
+@media (max-width: 565px) {
+  .paragraph {
+    font-size: 9pt;
+  }
+}

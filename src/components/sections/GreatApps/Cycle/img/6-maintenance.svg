@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="930" height="930" version="1.1" viewBox="0 0 246.06 246.06" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <filter id="filter1129" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".12157" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="3"/>
+   <feOffset dx="0" dy="0" result="offset"/>
+   <feComposite in="offset" in2="SourceGraphic" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".21961" in="fbSourceGraphic" result="flood"/>
+   <feComposite in="flood" in2="fbSourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="2"/>
+   <feOffset dx="0" dy="3" result="offset"/>
+   <feComposite in="fbSourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+  <font id="font1219" horiz-adv-x="1024" horiz-origin-x="0" horiz-origin-y="0" vert-adv-y="1024" vert-origin-x="512" vert-origin-y="768">
+   <font-face font-family="SVGFont 1" units-per-em="1024"/>
+   <missing-glyph d="M0,0h1000v1024h-1000z"/>
+  </font>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g>
+  <path d="m223.91 67.418-16.769 25.389-29.901 1.5561c4.9151 8.5129 7.5027 18.17 7.5028 28-1.3e-4 9.83-2.5878 19.487-7.5028 28l15.576 24.766 31.095 2.1789c9.6449-16.705 14.723-35.655 14.723-54.945-4e-5 -19.29-5.0777-38.24-14.723-54.945z" fill="#ef8201" fill-rule="evenodd" filter="url(#filter1129)" stroke-width=".24694"/>
+  <g transform="translate(59.473 -61.34)" fill="#fff" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;shape-inside:url(#rect1211-1);white-space:pre" aria-label="MAINTENANCE">
+   <path d="m131.45 196.27v4.9248h-0.98778v-3.2032l-1.3194 3.2032h-0.74789l-1.3264-3.2032v3.2032h-0.98778v-4.9248h1.1218l1.5663 3.6618 1.5663-3.6618z"/>
+   <path d="m135.44 200.26h-1.9614l-0.32455 0.93839h-1.0372l1.7709-4.9318h1.1501l1.771 4.9318h-1.0442zm-0.26811-0.79022-0.71262-2.0602-0.71261 2.0602z"/>
+   <path d="m138.46 196.27v4.9248h-0.98778v-4.9248z"/>
+   <path d="m143.64 201.2h-0.98778l-2.2366-3.3796v3.3796h-0.98777v-4.9318h0.98777l2.2366 3.3867v-3.3867h0.98778z"/>
+   <path d="m147.96 196.27v0.79728h-1.3123v4.1275h-0.98778v-4.1275h-1.3123v-0.79728z"/>
+   <path d="m149.66 197.07v1.2347h1.658v0.78317h-1.658v1.3053h1.8697v0.80433h-2.8575v-4.9318h2.8575v0.80434z"/>
+   <path d="m156.64 201.2h-0.98778l-2.2366-3.3796v3.3796h-0.98778v-4.9318h0.98778l2.2366 3.3867v-3.3867h0.98778z"/>
+   <path d="m160.63 200.26h-1.9614l-0.32455 0.93839h-1.0372l1.771-4.9318h1.15l1.771 4.9318h-1.0442zm-0.26811-0.79022-0.71261-2.0602-0.71261 2.0602z"/>
+   <path d="m166.88 201.2h-0.98777l-2.2366-3.3796v3.3796h-0.98778v-4.9318h0.98778l2.2366 3.3867v-3.3867h0.98777z"/>
+   <path d="m167.61 198.73q0-0.72672 0.32456-1.2982 0.33161-0.57856 0.89605-0.89606 0.5715-0.32455 1.2771-0.32455 0.8255 0 1.4464 0.42333 0.62089 0.42334 0.86783 1.1712h-1.1359q-0.16933-0.35278-0.47978-0.52917-0.30339-0.17639-0.70555-0.17639-0.43039 0-0.76906 0.20461-0.33161 0.19756-0.52211 0.56445-0.18345 0.36688-0.18345 0.86077 0 0.48684 0.18345 0.86078 0.1905 0.36689 0.52211 0.5715 0.33867 0.19756 0.76906 0.19756 0.40216 0 0.70555-0.17639 0.31045-0.18345 0.47978-0.53622h1.1359q-0.24694 0.75494-0.86783 1.1783-0.61383 0.41628-1.4464 0.41628-0.70556 0-1.2771-0.3175-0.56444-0.32455-0.89605-0.89605-0.32456-0.5715-0.32456-1.2982z"/>
+   <path d="m174.25 197.07v1.2347h1.6581v0.78317h-1.6581v1.3053h1.8697v0.80433h-2.8575v-4.9318h2.8575v0.80434z"/>
+  </g>
+  <g transform="translate(62.778 -63.765)" fill="#fff" style="shape-inside:url(#rect73-55);white-space:pre" aria-label="6">
+   <path d="m147.42 188.18q-0.127-0.5334-0.4445-0.8001-0.3048-0.2667-0.889-0.2667-0.8763 0-1.2954 0.7112-0.4064 0.6985-0.4191 2.286 0.3048-0.508 0.889-0.7874 0.5842-0.2921 1.27-0.2921 0.8255 0 1.4605 0.3556t0.9906 1.0414q0.3556 0.6731 0.3556 1.6256 0 0.9017-0.3683 1.6129-0.3556 0.6985-1.0541 1.0922t-1.6637 0.3937q-1.3208 0-2.0828-0.5842-0.7493-0.5842-1.0541-1.6256-0.2921-1.0541-0.2921-2.5908 0-2.3241 0.8001-3.5052 0.8001-1.1938 2.5273-1.1938 1.3335 0 2.0701 0.7239t0.8509 1.8034zm-1.2954 2.3114q-0.6731 0-1.1303 0.3937t-0.4572 1.143 0.4191 1.1811q0.4318 0.4318 1.2065 0.4318 0.6858 0 1.0795-0.4191 0.4064-0.4191 0.4064-1.1303 0-0.7366-0.3937-1.1684-0.381-0.4318-1.1303-0.4318z"/>
+  </g>
+ </g>
+</svg>

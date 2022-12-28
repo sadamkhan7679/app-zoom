@@ -1,0 +1,25 @@
+
+.container {
+    margin-top: 92pt;
+    margin-bottom: 92pt;
+}
+
+.row {
+    margin-bottom: 18pt;
+    background-color: white;
+    border-radius: 12pt;
+    padding: 12pt;
+}
+
+.col {
+    text-align: center;
+    padding-bottom: 12pt;
+}
+
+.img {
+    height: 52pt;
+}
+
+.label {
+    font-size: 14pt;
+}

@@ -1,0 +1,23 @@
+
+
+.container {
+  text-align: center;
+}
+
+.value {
+  display:inline-block;
+  max-width: 220pt;
+  font-size: 22pt;
+  line-height: 22pt;
+  text-align: center;
+  margin-bottom: 9pt;
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .value {
+    font-size: 24pt;
+    line-height: 24pt;
+    margin-bottom: 18pt;
+  }
+}

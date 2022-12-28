@@ -1,0 +1,41 @@
+
+.article
+p {
+    max-width: 520pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18pt;
+    font-size: 13pt;
+}
+@media (min-width: 768px) {
+    .article
+    p {
+        font-size: 14pt;
+    }
+}
+
+.article
+h3 {
+    text-align: center;
+    font-size: 16pt;
+    font-weight: 600;
+    margin-bottom: 18pt;
+}
+@media (min-width: 768px) {
+    .article
+    h3 {
+        font-size: 18pt;
+    }
+}
+
+.sectionContainer {
+    padding-top: 36pt;
+    padding-bottom: 36pt;
+    border-bottom: 2pt solid #989898;
+}
+@media (min-width: 768px) {
+    .sectionContainer {
+        padding-top: 64pt;
+        padding-bottom: 64pt;
+    }
+}

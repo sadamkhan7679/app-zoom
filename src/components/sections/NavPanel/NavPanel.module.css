@@ -1,0 +1,32 @@
+
+.navPanel {
+  height: auto;
+  padding: 48pt 0pt 36pt 0pt;
+  margin: 12pt;
+}
+@media (max-width: 767px) {
+
+}
+
+.container {
+  max-width: 530pt !important;
+}
+
+.row {
+  background-color: white;
+  border-radius: 12pt;
+  padding: 14pt;
+  border: 2px solid #989898;
+}
+
+.col {
+  text-align: center;
+}
+
+.btnContainer {
+  text-align: center;
+}
+
+.bookingBtn {
+  margin: 32pt;
+}

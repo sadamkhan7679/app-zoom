@@ -1,0 +1,24 @@
+
+.row {
+    margin-bottom: 24pt;
+}
+
+.col {
+    text-align: center;
+    padding: 9pt;
+}
+
+.aspectContainer {
+    background-color: white;
+    border-radius: 12pt;
+    padding: 14pt;
+}
+
+.img {
+    height: 52pt;
+    margin-bottom: 12pt;
+}
+
+.aspectText {
+    margin-bottom: 6pt !important;
+}

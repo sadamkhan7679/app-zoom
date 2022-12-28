@@ -1,0 +1,26 @@
+
+.container {
+  text-align: left;
+  padding-top: 14pt;
+  padding-bottom: 14pt;
+}
+@media (min-width: 768px) {
+  .container {
+    padding-left: 52pt;
+  }
+}
+@media (min-width: 991px) {
+  .container {
+    padding-left: 92pt;
+  }
+}
+
+.block {
+  display: inline-block;
+  width: 100%;
+  max-width: 400pt;
+}
+
+.col {
+  margin-bottom: 16pt;
+}

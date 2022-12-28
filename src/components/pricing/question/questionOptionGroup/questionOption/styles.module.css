@@ -1,0 +1,75 @@
+
+.row {
+  background-color: white;
+  box-shadow: 0pt 2pt 3pt 0.5pt rgba(0, 0, 0, 0.2);
+  padding: 8pt;
+}
+
+.leftCol {
+  text-align: center;
+  padding: 0;
+}
+
+.col {
+  padding: 0;
+}
+
+.rightCol {
+  padding: 0;
+}
+
+.img {
+  position: relative;
+  top: 3pt;
+  height: 28pt;
+}
+
+.text {
+  font-size: 13pt;
+  line-height: 12pt;
+  font-weight: 600;
+  padding-left: 4pt;
+  padding-right: 4pt;
+  display: inline-block;
+  width: 100%;
+  height: 32pt;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+.tooltip {
+  margin-left: 8pt;
+  position: relative;
+  top: 1.5pt;
+}
+
+.price {
+  margin-top: 6pt;
+  font-size: 14pt;
+}
+
+.button {
+  color: white;
+  border: none;
+  background-color: var(--primary-background-color);
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0pt 2pt 1pt 0.5pt rgba(83, 148, 76, 0.7);
+  transition: background-color 0.33s ease, box-shadow 0.33s ease;
+  border-radius: 6pt;
+  overflow: hidden;
+  height: 28pt;
+  position: relative;
+  top: -1pt;
+  min-width: 75px;
+  margin-left: -15px;
+}
+.button:hover {
+  background-color: var(--secondary-background-color);
+  box-shadow: 0pt 2pt 2pt 1pt rgba(35, 63, 32, 0.45);
+}
+
+.next {
+  font-size: 12pt;
+}

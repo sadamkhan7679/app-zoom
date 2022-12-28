@@ -1,0 +1,73 @@
+
+.row:after {
+  content: '';
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 12pt;
+  border-bottom: 2px solid rgb(197, 197, 197, 0.33);
+}
+@media (min-height: 768px) {
+  .row:after {
+    top: 16pt;
+  }
+}
+
+.icon {
+  width: 48pt;
+  height: 48pt;
+  margin-left: auto;
+}
+
+.question {
+  font-size: 11pt;
+  font-weight: 600;
+}
+@media (min-height: 768px) {
+  .question {
+    font-size: 12pt;
+  }
+}
+
+.answer {
+  font-size: 12pt;
+  font-style: oblique;
+}
+@media (min-height: 768px) {
+  .answer {
+    font-size: 14pt;
+    font-style: oblique;
+  }
+}
+
+.change {
+  margin-left: 8pt;
+}
+
+.changeButton {
+  text-decoration: inherit;
+  outline: inherit;
+  border: none;
+  border-radius: 6pt;
+  background-color: var(--primary-background-color);
+  box-shadow: 0pt 2pt 1pt 0.5pt rgba(83, 148, 76, 0.7);
+  padding: 4pt;
+  font-size: 11pt;
+  font-weight: 600;
+  color: white;
+  transition: 
+    background-color 0.33s ease, 
+    box-shadow 0.33s ease, 
+    opacity 0.33s ease;
+  cursor: pointer;
+}
+.changeButton:hover {
+  background-color: var(--secondary-background-color);
+  box-shadow: 0pt 2pt 2pt 1pt rgba(35, 63, 32, 0.45);
+}
+@media (min-height: 768px) {
+  .changeButton {
+    font-size: 12pt;
+  }
+}

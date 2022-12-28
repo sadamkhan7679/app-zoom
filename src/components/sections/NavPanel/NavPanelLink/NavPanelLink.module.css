@@ -1,0 +1,35 @@
+
+.link {
+  text-decoration: inherit;
+  color: inherit;
+  display: inline-block;
+}
+
+.navItem {
+  width: 200pt;
+  background-color: white;
+  padding: 8pt;
+  font-size: 16pt;
+  border-radius: 4pt;
+  transition: box-shadow 0.33s var(--time-func-a);
+  text-align: left;
+}
+.navItem:hover {
+  box-shadow: 0 3pt 4pt rgba(50, 56, 51, 0.3);
+}
+@media (max-width: 565px) {
+  .navItem {
+    width: 100%;
+  }
+}
+
+.icon {
+  height: 18pt;
+  vertical-align: middle;
+  margin-left: 4pt;
+}
+
+.text {
+  vertical-align: middle;
+  margin-left: 9pt;
+}

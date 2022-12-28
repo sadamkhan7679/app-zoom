@@ -1,0 +1,18 @@
+
+.img {   
+  height: 100vh;
+  max-height: 50vw;
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .img { max-height: 100vw }
+}
+
+.imgWithHeader {
+  height: 80vh;
+}
+
+.imgSmallVp {
+  height: 44vh;
+}

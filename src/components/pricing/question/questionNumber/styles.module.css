@@ -1,0 +1,40 @@
+
+.container {
+  text-align: center;
+  padding-top: 4pt;
+  padding-bottom: 4pt;
+}
+@media (min-height: 768px) {
+  .container {
+    padding-top: 4pt;
+    padding-bottom: 4pt;
+  }
+}
+@media (min-height: 992px) {
+  .container {
+    padding-top: 4pt;
+    padding-bottom: 4pt;
+  }
+}
+
+.number {
+  font-size: 24pt;
+}
+@media (min-height: 768px) {
+  .number {
+    font-size: 28pt;
+  }
+}
+
+.dot {
+  margin: 0 2pt;
+  filter: drop-shadow(0pt 1pt 2pt rgba(0, 0, 0, 0.2));
+  color: var(--secondary-font-color);
+}
+.complete {
+  color: var(--primary-background-color);
+}
+.active {
+  color: var(--primary-background-color);
+  filter: drop-shadow(0pt 0pt 3pt rgb(148, 209, 141)) drop-shadow(0pt 0pt 2pt rgb(148, 209, 141)); 
+}

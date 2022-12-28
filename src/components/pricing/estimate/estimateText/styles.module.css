@@ -1,0 +1,36 @@
+
+
+.container {
+  text-align: center;
+  padding-top: 26pt;
+}
+@media (min-height: 768px) {
+  .container {
+    padding-top: 32pt;
+  }
+}
+@media (min-height: 992px) {
+  .container {
+    padding-top: 36pt;
+  }
+}
+
+.heading {
+  margin-bottom: 6pt;
+  font-size: 24pt;
+}
+@media (min-height: 768px) {
+  .heading {
+    margin-bottom: 12pt;
+  }
+}
+@media (min-height: 992px) {
+  .heading {
+    padding-top: 18pt;
+  }
+}
+
+.paragraph {
+  font-size: 12pt;
+  line-height: 14pt;
+} 

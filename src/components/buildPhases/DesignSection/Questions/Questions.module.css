@@ -1,0 +1,32 @@
+
+.container {
+    margin-top: 92pt;
+    margin-bottom: 92pt;
+}
+
+.row {
+    background-color: white;
+    border-radius: 12pt;
+    padding: 6pt;
+    margin-bottom: 12pt;
+}
+
+.col {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.img {
+    height: 52pt;
+}
+
+.question { 
+    margin-bottom: 0 !important;
+}

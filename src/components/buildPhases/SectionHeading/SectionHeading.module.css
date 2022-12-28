@@ -1,0 +1,12 @@
+
+.h2 {
+    text-align: center;
+    font-size: 24pt;   
+    margin-bottom: 48pt;
+}
+@media (min-width: 768px) {
+    .h2 {
+        font-size: 28pt;   
+        margin-bottom: 64pt;
+    }
+}

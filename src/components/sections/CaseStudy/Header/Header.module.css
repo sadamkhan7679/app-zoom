@@ -1,0 +1,33 @@
+
+.textContainer {
+  text-align: center;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 18pt;
+}
+@media (max-width: 767px) {
+  .textContainer {
+    padding-top: 9pt;
+    height: 15vh;
+  }
+}
+.text {
+  margin-left: auto;
+  margin-right: auto;
+}
+.heading {
+  margin-bottom: 0.08em;
+}
+@media (max-width: 767px) {
+  .heading {
+    padding-top: 0;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+  }
+}
+.subtitle {
+  color: var(--secondary-font-color);
+}

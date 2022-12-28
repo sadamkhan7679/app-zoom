@@ -1,0 +1,42 @@
+
+.goBack {
+  color: inherit;
+  text-decoration: inherit;
+  outline: inherit;
+  border: none;
+  border-radius: 6pt;
+  background-color: white;
+  box-shadow: 0pt 1.5pt 2pt 0.5pt rgba(0, 0, 0, 0.2);
+  padding: 9pt;
+  font-size: 12pt;
+  font-weight: 600;
+  color: var(--secondary-font-color);
+  transition: background-color 0.33s ease, box-shadow 0.33s ease;
+  cursor: pointer;
+}
+.goBack:hover {
+  background-color: rgb(240, 240, 240);
+  box-shadow: 0pt 2pt 3pt 1pt rgba(0, 0, 0, 0.25);
+}
+
+
+.preview {
+  width: 50%;
+  color: inherit;
+  text-decoration: inherit;
+  outline: inherit;
+  border: none;
+  border-radius: 6pt;
+  background-color: white;
+  box-shadow: 0pt 1.5pt 2pt 0.5pt rgba(0, 0, 0, 0.2);
+  padding: 9pt;
+  font-size: 12pt;
+  font-weight: 600;
+  color: var(--secondary-font-color);
+  transition: background-color 0.33s ease, box-shadow 0.33s ease;
+  cursor: pointer;
+}
+.preview:hover {
+  background-color: rgb(240, 240, 240);
+  box-shadow: 0pt 2pt 3pt 1pt rgba(0, 0, 0, 0.25);
+}

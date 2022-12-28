@@ -1,0 +1,35 @@
+{
+  "platforms": {
+    "type": "add",
+    "values": {
+      "ios": 1500,
+      "android": 1200,
+      "web": 1000
+    }
+  },
+  "levelOfDetail": {
+    "type": "multiply",
+    "values": {
+      "bareBones": 0.0,
+      "detailed": 0.5,
+      "beautiful": 1.0
+    }
+  },
+  "login": {
+    "type": "add",
+    "values": {
+      "yes": 1950,
+      "no": 0
+    }
+  },
+  "design": {
+    "type": "add",
+    "values": {
+      "digital": 500,
+      "refApp": 2000,
+      "paper": 2000,
+      "written": 2000,
+      "none": 2000
+    }
+  }
+}

@@ -1,0 +1,43 @@
+
+
+.nav {
+  display: flex;
+}
+
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  color: var(--primary-font-color);
+  margin: 0 11pt;
+  font-size: 0.88rem;
+  cursor: pointer;
+  display: inline;
+}
+@media (max-width: 767px) {
+  .navItem {
+    margin: 0;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: unset;
+}
+@media (min-width: 991px) {
+  .link {
+    font-size: 13pt;
+  }
+}
+.linkNavigated {
+  text-decoration: underline;
+}
+
+.bookingBtn {
+  margin: 0 !important;
+  font-size: 12pt !important;
+  padding: 4px 12px !important;
+}

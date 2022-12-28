@@ -1,0 +1,44 @@
+
+.container {
+  position: fixed;
+  top: 50vh;
+  left: 0;
+  transform: translateY(-50%);
+  opacity: 0.0;
+  transition: opacity 0.55s var(--time-func-a);
+}
+
+.right {
+  left: unset;
+  right: 0;
+}
+
+.show {
+  opacity: 1.0;
+}
+
+.index {
+  display: block;
+  width: 6pt;
+  margin: 22pt 15pt;
+  border-radius: 9pt;
+  border: none;
+  background-color: rgba(44, 44, 44, 0.3);
+  transition: background-color 0.88s var(--time-func-a);
+}
+.light .index {
+  border: none;
+  background-color: rgba(244, 244, 244, 0.4);
+}
+@media (orientation: portrait) {
+  .index {
+    margin: 9pt 6pt;
+  }
+}
+
+.navIndex {
+  background-color: rgba(44, 44, 44, 0.9);
+}
+.light .navIndex {
+  background-color: rgba(244, 244, 244, 1.0);
+}

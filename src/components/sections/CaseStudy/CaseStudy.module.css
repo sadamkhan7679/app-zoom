@@ -1,0 +1,42 @@
+
+.container {
+    position: relative;
+    display: inline-block;
+    height: calc(100 * var(--ivh));
+}
+.containerFull {
+    height: calc(100 * var(--ivh));
+}
+
+.row {
+    /* height: calc(80 * var(--ivh)); */
+    background-color: #fff;
+    overflow: hidden;
+}
+.rowFull{
+    /* height: calc(100 * var(--ivh) - 60px); */
+    position: relative;
+    /* top: 12pt; */
+}
+
+.bookingBtnPortrait {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+@media (orientation: landscape) {
+    .bookingBtnPortrait {
+        display: none;
+    }
+}
+.bookingBtnLandscape {
+    width: 100%;
+    text-align: center;
+}
+@media (orientation: portrait) {
+    .bookingBtnLandscape {
+        display: none;
+    }
+}

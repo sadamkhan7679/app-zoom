@@ -1,0 +1,81 @@
+
+/* Header */
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 500;
+}
+
+/* Container */
+.container {
+  background-color: var(--primary-background-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 10px;
+}
+@media screen and (min-width: 575px) {
+  .container {
+    padding: 6px 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 6px 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    padding: 6px 20px 6px 60px;
+  }
+}
+
+/* Brand */
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand:link {
+  text-decoration: none;
+}
+.logo {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 5.5pt;
+  text-align: center;
+  width: 32pt;
+  height: 32pt;
+}
+.logoImg {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: 1.66pt;
+}
+.brandName {
+  color: var(--primary-font-color);
+  font-size: 1.2rem;
+  margin: 0pt 7.5pt;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 38pt;
+    height: 38pt;
+  }
+  .brandName {
+    margin: 0pt 10pt;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logo {
+    width: 44pt;
+    height: 44pt;
+  }
+  .brandName {
+    margin: 0pt 10pt;
+  }
+}

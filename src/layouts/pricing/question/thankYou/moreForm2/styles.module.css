@@ -1,0 +1,15 @@
+
+.container {
+  margin-top: 3pt;
+  max-width: 360pt !important;
+}
+@media (min-height: 768px) {
+  .container {
+    margin-top: 6pt;
+  }
+}
+@media (min-height: 992px) {
+  .container {
+    margin-top: 12pt;
+  }
+}

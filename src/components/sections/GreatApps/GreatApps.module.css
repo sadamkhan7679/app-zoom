@@ -1,0 +1,142 @@
+
+.container {
+  position: relative;
+  height: calc(100 * var(--ivh));
+}
+
+.steps {
+  position: relative;
+  z-index: -5;
+}
+@media (max-height: 600px) {
+  .steps {
+    top: -12pt;
+  }
+}
+@media (min-width: 566px) and (max-width: 767px) and (orientation: portrait) {
+  .steps {
+    margin-top: 4vh;
+  }
+}
+
+.stepTextCol {
+  position: relative;
+}
+@media (orientation: portrait) {
+  .cycleCol {
+    height: calc(44 * var(--ivh));
+  }
+  .stepTextCol {
+    height: calc(33 * var(--ivh));
+  }
+}
+@media (max-width: 565px) {
+  .stepTextCol {
+    top: -12pt;
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 565px) and (orientation: portrait) {
+  .cycleCol {
+    height: calc(42.5 * var(--ivh));
+  }
+}
+
+.text {
+  position: relative;
+  padding-top: 0.8rem;
+  margin-bottom: 1.6rem;
+}
+@media (max-width: 767px) {
+  .text {
+    padding-top: 0;
+    top: -9pt;
+    margin-bottom: 0.15rem;
+  }
+}
+
+.heading {
+  margin-bottom: 0.3em;
+}
+@media (max-width: 767px) {
+  .heading {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 565px) {
+  .heading {
+    font-size: 1.3rem;
+    margin-bottom: 0.15em;
+  }
+}
+
+.paragraph {
+  max-width: 360pt;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12pt;
+  z-index: 10;
+}
+@media (max-width: 767px) {
+  .paragraph {
+    padding: 0 1rem;
+    font-size: 11pt;
+  }
+}
+@media (max-width: 565px) {
+  .paragraph {
+    font-size: 10pt;
+  }
+}
+
+.stepTextContainer {
+  position: relative;
+  height: 100%;
+  z-index: 10;
+}
+
+.bg1 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) !important;
+  width: 66%;
+  z-index: -10;
+}
+
+@media (max-width: 767px) {
+  .bg1 {
+    top: 53%;
+    width: 44%;
+  }
+}
+
+@media (max-Width: 565px) and (max-height: 565px) {
+  .bg1 {
+    top: 53%;
+  }
+}
+
+.cta {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 992px) and (orientation: landscape) {
+  .cta {
+    text-align: right;
+    padding: 22pt 55pt;
+  }
+}
+
+.bookingBtnContainer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 3pt;
+    text-align: center;
+    width: 100%;
+}
